@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Prefences_Pm</string>
+    <string name="hint_email">Correo electrónico</string>
+    <string name="hint_password">Contraseña</string>
+    <string name="btn_save">GUARDAR</string>
+    <string name="btn_delete">ELIMINAR</string>
 </resources>

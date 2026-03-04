@@ -25,11 +25,12 @@
             android:id="@+id/editTextTextEmailAddress"
             android:layout_width="match_parent"
             android:layout_height="55dp"
-            android:hint="Correo electrónico"
+            android:hint="@string/hint_email"
             android:padding="12dp"
             android:backgroundTint="#1976D2"
             android:textColor="#000000"
             android:textColorHint="#9E9E9E"
+            android:autofillHints="emailAddress"
             android:inputType="textEmailAddress"
             android:layout_marginBottom="20dp"/>
 
@@ -37,11 +38,12 @@
             android:id="@+id/editTextTextPassword"
             android:layout_width="match_parent"
             android:layout_height="55dp"
-            android:hint="Contraseña"
+            android:hint="@string/hint_password"
             android:padding="12dp"
             android:backgroundTint="#1976D2"
             android:textColor="#000000"
             android:textColorHint="#9E9E9E"
+            android:autofillHints="password"
             android:inputType="textPassword"
             android:layout_marginBottom="28dp"/>
 
@@ -49,7 +51,7 @@
             android:id="@+id/agregar"
             android:layout_width="match_parent"
             android:layout_height="55dp"
-            android:text="GUARDAR"
+            android:text="@string/btn_save"
             android:textStyle="bold"
             android:textColor="#FFFFFF"
             android:backgroundTint="#1976D2"
@@ -70,7 +72,7 @@
             android:id="@+id/eliminar"
             android:layout_width="match_parent"
             android:layout_height="55dp"
-            android:text="ELIMINAR"
+            android:text="@string/btn_delete"
             android:textStyle="bold"
             android:textColor="#FFFFFF"
             android:backgroundTint="#D32F2F"/>
