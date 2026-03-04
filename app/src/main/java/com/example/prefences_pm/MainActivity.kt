@@ -70,7 +70,7 @@ class MainActivity : AppCompatActivity() {
 
 
         val email = viewModel.emailLiveData.value ?:""
-        val contrasena = viewModel.contrasenaLiveData ?:""
+        val contrasena = viewModel.contrasenaLiveData.value ?:""
 
         binding.textView2.text =  "Email: $email\nContraseña: $contrasena"
     }
